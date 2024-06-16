@@ -52,7 +52,7 @@
                     <div class="menu-area">
                         <div class="logo-box">
                             <figure class="logo">
-                                <a href="index.html">
+                                <a href="index">
                                     <img src="assets/images/logo-2.png" alt="logo">
                                 </a>
                             </figure>
@@ -68,79 +68,57 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="current"><a href="index.html">Home</a></li>
+                                    <li class="current"><a href="index">Home</a></li>
                                     <li class="dropdown">
-                                        <a href="#">
+                                        <a href="about">
                                             Pages
                                             <span class="dropdown-arrow fas fa-angle-down"></span>
                                         </a>
                                         <ul>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="gallery.html">Our Gallery</a></li>
-                                            <li><a href="gallery.html">Reviews</a></li>
+                                            <li><a href="about">About Us</a></li>
+                                            <li><a href="gallery">Our Gallery</a></li>
+                                            <li><a href="gallery">Reviews</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="#">
-                                            Our Animals
+                                        <a href="windows">
+                                            Windows
                                             <span class="dropdown-arrow fas fa-angle-down"></span>
                                         </a>
                                         <ul>
-                                            <li><a href="animals.html">Animals</a></li>
-                                            <li><a href="deer.html">Deer</a></li>
-                                            <li><a href="wolf.html">Wolf</a></li>
-                                            <li><a href="elephant.html">Elephant</a></li>
-                                            <li><a href="girrafe.html">Girrafe</a></li>
-                                            <li><a href="monkey.html">Monkey</a></li>
-                                            <li><a href="cheeta.html">Cheeta</a></li>
+                                            <li><a href="windows/upvc-casement-windows">UPVC Casement Windows</a>
+                                            </li>
+                                            <li><a href="windows/upvc-wood-effect-windows">UPVC Wood Effect
+                                                    Windows</a></li>
+                                            <li><a href="windows/aluminium-windows">Aluminium Windows</a></li>
+                                            <li><a href="windows/sash-windows">Sash Windows</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="index.html">Elements
-                                            <span class="dropdown-arrow fas fa-angle-down"></span></a>
-                                        <div class="megamenu">
-                                            <div class="row clearfix">
-                                                <div class="col-lg-6 column">
-                                                    <ul>
-                                                        <li>
-                                                            <h4>Elements 1</h4>
-                                                        </li>
-                                                        <li><a href="about-element-1.html">About Block 01</a></li>
-                                                        <li><a href="about-element-2.html">About Block 02</a></li>
-                                                        <li><a href="about-element-3.html">About Block 03</a></li>
-                                                        <li><a href="funfact-element-1.html">Funfact Block 01</a></li>
-                                                        <li><a href="funfact-element-2.html">Funfact Block 02</a></li>
-                                                        <li><a href="news-element-1.html">News Block 01</a></li>
-                                                        <li><a href="news-element-2.html">News Block 02</a></li>
-                                                        <li><a href="team-element-1.html">Team Block 01</a></li>
-                                                    </ul>
-                                                </div>
-                                                <div class="col-lg-6 column">
-                                                    <ul>
-                                                        <li>
-                                                            <h4>Elements 2</h4>
-                                                        </li>
-                                                        <li><a href="team-element-2.html">Team Block 02</a></li>
-                                                        <li><a href="pricing-element-1.html">Pricing Block 01</a></li>
-                                                        <li><a href="pricing-element-2.html">Pricing Block 02</a></li>
-                                                        <li><a href="chooseus-element.html">Chooseus Block</a></li>
-                                                        <li><a href="video-element.html">Video Block</a></li>
-                                                        <li><a href="testimonial-element.html">Testimonial Block</a>
-                                                        </li>
-                                                        <li><a href="cta-element.html">Cta Block</a></li>
-                                                        <li><a href="clients-element.html">Clients Block</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="dropdown"><a href="index.html">Blog
+                                    <li class="dropdown">
+                                        <a href="doors">
+                                            Doors
                                             <span class="dropdown-arrow fas fa-angle-down"></span></a>
                                         <ul>
-                                            <li><a href="blog.html">Our Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="doors/upvc-doors">UPVC Doors</a></li>
+                                            <li><a href="doors/solidcore-doors">Solidcore Doors</a></li>
+                                            <li><a href="doors/composite-doors">Composite Doors</a></li>
+                                            <li><a href="doors/bifold-doors">Bifold Doors</a></li>
+                                            <li><a href="doors/patio-doors">Patio Doors</a></li>
+                                            <li><a href="doors/garage-doors">Garage Doors</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li class="dropdown">
+                                        <a href="conservatories">
+                                            Conservatories
+                                            <span class="dropdown-arrow fas fa-angle-down"></span></a>
+                                        <ul>
+                                            <li><a href="conservatories/conservatories-styles">Conservatories Styles</a>
+                                            </li>
+                                            <li><a href="conservatories/roof-options">Roof Options Doors</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="trade">Trade</a></li>
+                                    <li><a href="contact">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -153,7 +131,7 @@
                 <div class="outer-box">
                     <div class="logo-box">
                         <figure class="logo">
-                            <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                            <a href="index"><img src="assets/images/logo.png" alt=""></a>
                         </figure>
                     </div>
                     <div class="menu-area">
@@ -179,9 +157,10 @@
             <div class="close-btn"><i class="fas fa-times"></i></div>
 
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a>
+                <div class="nav-logo"><a href="index"><img src="assets/images/logo-2.png" alt="" title=""></a>
                 </div>
-                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                <div class="menu-outer">
+                    <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                 </div>
                 <div class="contact-info">
                     <h4>Contact Info</h4>
@@ -193,11 +172,11 @@
                 </div>
                 <div class="social-links">
                     <ul class="clearfix">
-                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                        <li><a href="index"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index"><span class="fab fa-youtube"></span></a></li>
                     </ul>
                 </div>
             </nav>
@@ -215,7 +194,7 @@
                             <h3>Welcome to Weldlfe Zoo</h3>
                             <h2>Let’s Explore our wildlife animals</h2>
                             <div class="btn-box">
-                                <a href="index.html" class="theme-btn btn-one">Discover More</a>
+                                <a href="index" class="theme-btn btn-one">Discover More</a>
                             </div>
                         </div>
                     </div>
@@ -227,7 +206,7 @@
                             <h3>Welcome to Weldlfe Zoo</h3>
                             <h2>Let’s Explore our wildlife animals</h2>
                             <div class="btn-box">
-                                <a href="index.html" class="theme-btn btn-one">Discover More</a>
+                                <a href="index" class="theme-btn btn-one">Discover More</a>
                             </div>
                         </div>
                     </div>
@@ -239,7 +218,7 @@
                             <h3>Welcome to Weldlfe Zoo</h3>
                             <h2>Let’s Explore our wildlife animals</h2>
                             <div class="btn-box">
-                                <a href="index.html" class="theme-btn btn-one">Discover More</a>
+                                <a href="index" class="theme-btn btn-one">Discover More</a>
                             </div>
                         </div>
                     </div>
@@ -251,17 +230,17 @@
                             <h3>Welcome to Weldlfe Zoo</h3>
                             <h2>Let’s Explore our wildlife animals</h2>
                             <div class="btn-box">
-                                <a href="index.html" class="theme-btn btn-one">Discover More</a>
+                                <a href="index" class="theme-btn btn-one">Discover More</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <ul class="social-links clearfix">
-                <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="index-2.html"><i class="fab fa-pinterest-p"></i></a></li>
-                <li><a href="index-2.html"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="index-2"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="index-2"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="index-2"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="index-2"><i class="fab fa-instagram"></i></a></li>
             </ul>
             <div class="video-box">
                 <div class="video-btn">
@@ -269,7 +248,7 @@
                         data-caption=""><i class="fas fa-play"></i></a>
                 </div>
                 <h6>a Wild <br>Animal love</h6>
-                <div class="link"><a href="index-2.html"><i class="far fa-angle-right"></i></a></div>
+                <div class="link"><a href="index-2"><i class="far fa-angle-right"></i></a></div>
             </div>
         </section>
         <!-- banner-section end -->
@@ -286,13 +265,13 @@
                     <div class="row clearfix">
                         <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget logo-widget">
-                                <figure class="footer-logo"><a href="index.html"><img
-                                            src="assets/images/footer-logo.png" alt=""></a></figure>
+                                <figure class="footer-logo"><a href="index"><img src="assets/images/footer-logo.png"
+                                            alt=""></a></figure>
                                 <ul class="footer-social clearfix">
-                                    <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-pinterest-p"></i></a></li>
-                                    <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="index"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="index"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="index"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="index"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -303,10 +282,10 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">
-                                        <li><a href="index.html">About Us</a></li>
-                                        <li><a href="index.html">Book Tickets</a></li>
-                                        <li><a href="index.html">Meet the Animals</a></li>
-                                        <li><a href="index.html">Our Gallery</a></li>
+                                        <li><a href="index">About Us</a></li>
+                                        <li><a href="index">Book Tickets</a></li>
+                                        <li><a href="index">Meet the Animals</a></li>
+                                        <li><a href="index">Our Gallery</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -365,7 +344,7 @@
             <div class="footer-bottom centred">
                 <div class="auto-container">
                     <div class="copyright">
-                        <p>&copy; Copyright 2022 by <a href="index.html">weldlfe.com</a></p>
+                        <p>&copy; Copyright 2022 by <a href="index">weldlfe.com</a></p>
                     </div>
                 </div>
             </div>
