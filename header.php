@@ -81,7 +81,7 @@ require 'config.php';
                                         <ul>
                                             <li><a href="about.php">About Us</a></li>
                                             <li><a href="gallery.php">Our Gallery</a></li>
-                                            <li><a href="gallery.php">Reviews</a></li>
+                                            <li><a href="testimonial.php">Reviews</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
@@ -125,7 +125,7 @@ require 'config.php';
                                                     Doors</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="trade.php">Trade</a></li>
+                                    <!-- <li><a href="trade.php">Trade</a></li> -->
                                     <li><a href="contact.php">Contact</a></li>
                                 </ul>
                             </div>
