@@ -1,5 +1,5 @@
 <?php
-require 'config.php';
+require 'includes/config.php';
 ?>
 
 <!DOCTYPE html>
@@ -12,23 +12,23 @@ require 'config.php';
     <title><?php echo $sitename; ?></title>
 
     <!-- Fav Icon -->
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="<?php asset('assets/images/favicon.ico') ?>" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link
-        href="assets/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="<?php asset('assets/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') ?>"
         rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link href="assets/css/font-awesome-all.css" rel="stylesheet">
-    <link href="assets/css/flaticon.css" rel="stylesheet">
-    <link href="assets/css/owl.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/color.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="<?php asset('assets/css/font-awesome-all.css') ?>" rel="stylesheet">
+    <link href="<?php asset('assets/css/flaticon.css') ?>" rel="stylesheet">
+    <link href="<?php asset('assets/css/owl.css') ?>" rel="stylesheet">
+    <link href="<?php asset('assets/css/bootstrap.css') ?>" rel="stylesheet">
+    <link href="<?php asset('assets/css/jquery.fancybox.min.css') ?>" rel="stylesheet">
+    <link href="<?php asset('assets/css/animate.css') ?>" rel="stylesheet">
+    <link href="<?php asset('assets/css/color.css') ?>" rel="stylesheet">
+    <link href="<?php asset('assets/css/style.css') ?>" rel="stylesheet">
+    <link href="<?php asset('assets/css/responsive.css') ?>" rel="stylesheet">
 </head>
 
 <body>
@@ -56,8 +56,8 @@ require 'config.php';
                     <div class="menu-area">
                         <div class="logo-box">
                             <figure class="logo">
-                                <a href="index.php">
-                                    <img src="assets/images/logo-2.png" alt="logo">
+                                <a href="<?php route() ?>">
+                                    <img src="<?php asset('assets/images/logo-2.png') ?>" alt="logo">
                                 </a>
                             </figure>
                         </div>
@@ -72,61 +72,87 @@ require 'config.php';
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="current"><a href="index.php">Home</a></li>
+                                    <li class="current"><a href="<?php route() ?>">Home</a></li>
                                     <li class="dropdown">
-                                        <a href="about.php">
+                                        <a href="<?php route('about.php') ?>">
                                             Pages
                                             <span class="dropdown-arrow fas fa-angle-down"></span>
                                         </a>
                                         <ul>
-                                            <li><a href="about.php">About Us</a></li>
-                                            <li><a href="gallery.php">Our Gallery</a></li>
-                                            <li><a href="testimonial.php">Reviews</a></li>
+                                            <li><a href="<?php route('about.php') ?>">About Us</a></li>
+                                            <li><a href="<?php route('gallery.php') ?>">Our Gallery</a></li>
+                                            <li><a href="<?php route('testimonial.php') ?>">Reviews</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="products/windows">
+                                        <a href="<?php route('products/windows') ?>">
                                             Windows
                                             <span class="dropdown-arrow fas fa-angle-down"></span>
                                         </a>
                                         <ul>
-                                            <li><a href="products/windows/upvc-casement-windows.php">UPVC Casement
-                                                    Windows</a>
+                                            <li>
+                                                <a href="<?php route('products/windows/upvc-casement-windows.php') ?>">
+                                                    UPVC Casement Windows
+                                                </a>
                                             </li>
-                                            <li><a href="products/windows/upvc-wood-effect-windows.php">UPVC Wood Effect
-                                                    Windows</a></li>
-                                            <li><a href="products/windows/aluminium-windows.php">Aluminium Windows</a>
+                                            <li>
+                                                <a
+                                                    href="<?php route('products/windows/upvc-wood-effect-windows.php') ?>">
+                                                    UPVC Wood Effect Windows
+                                                </a>
                                             </li>
-                                            <li><a href="products/windows/sash-windows.php">Sash Windows</a></li>
+                                            <li>
+                                                <a href="<?php route('products/windows/aluminium-windows.php') ?>">
+                                                    Aluminium Windows
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="<?php route('products/windows/sash-windows.php') ?>">
+                                                    Sash Windows
+                                                </a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="products/doors">
+                                        <a href="<?php route('products/doors') ?>">
                                             Doors
                                             <span class="dropdown-arrow fas fa-angle-down"></span></a>
                                         <ul>
-                                            <li><a href="products/doors/upvc-doors.php">UPVC Doors</a></li>
-                                            <li><a href="products/doors/solidcore-doors.php">Solidcore Doors</a></li>
-                                            <li><a href="products/doors/composite-doors.php">Composite Doors</a></li>
-                                            <li><a href="products/doors/bifold-doors.php">Bifold Doors</a></li>
-                                            <li><a href="products/doors/patio-doors.php">Patio Doors</a></li>
-                                            <li><a href="products/doors/garage-doors.php">Garage Doors</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="products/conservatories">
-                                            Conservatories
-                                            <span class="dropdown-arrow fas fa-angle-down"></span></a>
-                                        <ul>
-                                            <li><a href="products/conservatories/conservatories-styles.php">Conservatories
-                                                    Styles</a>
-                                            </li>
-                                            <li><a href="products/conservatories/roof-options.php">Roof Options
+                                            <li><a href="<?php route('products/doors/upvc-doors.php') ?></a>">UPVC
+                                                    Doors</a></li>
+                                            <li><a href="<?php route('products/doors/solidcore-doors.php') ?></a>">Solidcore
+                                                    Doors</a></li>
+                                            <li><a href="<?php route('products/doors/composite-doors.php') ?></a>">Composite
+                                                    Doors</a></li>
+                                            <li><a href="<?php route('products/doors/bifold-doors.php') ?></a>">Bifold
+                                                    Doors</a></li>
+                                            <li><a href="<?php route('products/doors/patio-doors.php') ?></a>">Patio
+                                                    Doors</a></li>
+                                            <li><a href="<?php route('products/doors/garage-doors.php') ?></a>">Garage
                                                     Doors</a></li>
                                         </ul>
                                     </li>
-                                    <!-- <li><a href="trade.php">Trade</a></li> -->
-                                    <li><a href="contact.php">Contact</a></li>
+                                    <li class="dropdown">
+                                        <a href="<?php route('products/conservatories') ?>">
+                                            Conservatories
+                                            <span class="dropdown-arrow fas fa-angle-down"></span>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <a
+                                                    href="<?php route('products/conservatories/conservatories-styles.php') ?>">
+                                                    Conservatories Styles
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="<?php route('products/conservatories/roof-options.php') ?>">
+                                                    Roof Options Doors
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- <li><a href="<?php // route('trade.php') ?>">Trade</a></li> -->
+                                    <li><a href="<?php route('contact.php') ?>">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -139,7 +165,8 @@ require 'config.php';
                 <div class="outer-box">
                     <div class="logo-box">
                         <figure class="logo">
-                            <a href="index.php"><img src="assets/images/logo.png" alt="logo"></a>
+                            <a href="<?php route() ?>"><img src="<?php asset('assets/images/logo.png') ?>"
+                                    alt="logo"></a>
                         </figure>
                     </div>
                     <div class="menu-area">
@@ -166,7 +193,10 @@ require 'config.php';
             <div class="close-btn"><i class="fas fa-times"></i></div>
 
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.php"><img src="assets/images/logo-2.png" alt="logo" title=""></a>
+                <div class="nav-logo">
+                    <a href="<?php route() ?>">
+                        <img src="<?php asset('assets/images/logo-2.png') ?>" alt="logo" title="">
+                    </a>
                 </div>
                 <div class="menu-outer">
                     <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->

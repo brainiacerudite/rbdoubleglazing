@@ -15,7 +15,8 @@ include 'breadcrumb.php';
             <div class="testimonil-block-one">
                 <div class="inner-box">
                     <div class="author-thumb">
-                        <figure class="thumb-box"><img src="assets/images/resource/testimonial-1.jpg" alt="">
+                        <figure class="thumb-box"><img src="<?php asset('assets/images/resource/testimonial-1.jpg') ?>"
+                                alt="">
                         </figure>
                         <div class="quote"><i class="flaticon-quote"></i></div>
                     </div>
@@ -32,7 +33,8 @@ include 'breadcrumb.php';
             <div class="testimonil-block-one">
                 <div class="inner-box">
                     <div class="author-thumb">
-                        <figure class="thumb-box"><img src="assets/images/resource/testimonial-2.jpg" alt="">
+                        <figure class="thumb-box"><img src="<?php asset('assets/images/resource/testimonial-2.jpg') ?>"
+                                alt="">
                         </figure>
                         <div class="quote"><i class="flaticon-quote"></i></div>
                     </div>
@@ -49,7 +51,8 @@ include 'breadcrumb.php';
             <div class="testimonil-block-one">
                 <div class="inner-box">
                     <div class="author-thumb">
-                        <figure class="thumb-box"><img src="assets/images/resource/testimonial-3.jpg" alt="">
+                        <figure class="thumb-box"><img src="<?php asset('assets/images/resource/testimonial-3.jpg') ?>"
+                                alt="">
                         </figure>
                         <div class="quote"><i class="flaticon-quote"></i></div>
                     </div>

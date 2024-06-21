@@ -4,7 +4,8 @@
 <section class="banner-section banner-style-two centred">
     <div class="banner-carousel owl-theme owl-carousel owl-dots-none owl-nav-none">
         <div class="slide-item">
-            <div class="image-layer" style="background-image:url(assets/images/banner/banner-1.jpg)"></div>
+            <div class="image-layer" style="background-image:url(<?php asset('assets/images/banner/banner-1.jpg') ?>)">
+            </div>
             <div class="auto-container">
                 <div class="content-box">
                     <h3>Welcome to <?php echo $sitename; ?></h3>
@@ -24,11 +25,11 @@
             </ul> -->
     <!-- <div class="video-box">
                 <div class="video-btn">
-                    <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&t=28s" class="lightbox-image"
+                    <a href="#" class="lightbox-image"
                         data-caption=""><i class="fas fa-play"></i></a>
                 </div>
-                <h6>a Wild <br>Animal love</h6>
-                <div class="link"><a href="index-2"><i class="far fa-angle-right"></i></a></div>
+                <h6>Lorem <br>Ipsum/h6>
+                <div class="link"><a href="#"><i class="far fa-angle-right"></i></a></div>
             </div> -->
 </section>
 <!-- banner-section end -->
@@ -40,11 +41,14 @@
             <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                 <div class="image_block_one">
                     <div class="image-box">
-                        <div class="shape" style="background-image: url(assets/images/shape/shape-1.png);">
+                        <div class="shape"
+                            style="background-image: url(<?php asset('assets/images/shape/shape-1.png') ?>);">
                         </div>
-                        <figure class="image"><img src="assets/images/resource/about-1.jpg" alt="about-1">
+                        <figure class="image"><img src="<?php asset('assets/images/resource/about-1.jpg') ?>"
+                                alt="about-1">
                         </figure>
-                        <div class="icon-box"><img src="assets/images/icons/icon-1.png" alt="icon-1"></div>
+                        <div class="icon-box"><img src="<?php asset('assets/images/icons/icon-1.png') ?>" alt="icon-1">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -77,7 +81,8 @@
 <!-- cta-section -->
 <section class="chooseus-section sec-pad">
     <div class="img-wrap parallax-demo-1">
-        <div class="parallax-inner back-img" style="background-image: url(assets/images/background/chooseus-bg.jpg);">
+        <div class="parallax-inner back-img"
+            style="background-image: url(<?php asset('assets/images/background/chooseus-bg.jpg') ?>">
         </div>
     </div>
     <div class="auto-container">
@@ -122,7 +127,8 @@
             <div class="testimonil-block-one">
                 <div class="inner-box">
                     <div class="author-thumb">
-                        <figure class="thumb-box"><img src="assets/images/resource/testimonial-1.jpg" alt="">
+                        <figure class="thumb-box"><img src="<?php asset('assets/images/resource/testimonial-1.jpg') ?>"
+                                alt="">
                         </figure>
                         <div class="quote"><i class="flaticon-quote"></i></div>
                     </div>
@@ -139,7 +145,8 @@
             <div class="testimonil-block-one">
                 <div class="inner-box">
                     <div class="author-thumb">
-                        <figure class="thumb-box"><img src="assets/images/resource/testimonial-2.jpg" alt="">
+                        <figure class="thumb-box"><img src="<?php asset('assets/images/resource/testimonial-2.jpg') ?>"
+                                alt="">
                         </figure>
                         <div class="quote"><i class="flaticon-quote"></i></div>
                     </div>
@@ -156,7 +163,8 @@
             <div class="testimonil-block-one">
                 <div class="inner-box">
                     <div class="author-thumb">
-                        <figure class="thumb-box"><img src="assets/images/resource/testimonial-3.jpg" alt="">
+                        <figure class="thumb-box"><img src="<?php asset('assets/images/resource/testimonial-3.jpg') ?>"
+                                alt="">
                         </figure>
                         <div class="quote"><i class="flaticon-quote"></i></div>
                     </div>

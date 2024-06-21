@@ -10,7 +10,8 @@ include 'breadcrumb.php';
     <div class="auto-container">
         <div class="row clearfix">
             <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                <figure class="image-box"><img src="assets/images/resource/about-3.jpg" alt=""></figure>
+                <figure class="image-box"><img src="<?php asset('assets/images/resource/about-3.jpg') ?>" alt="about">
+                </figure>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                 <div class="content_block_three">

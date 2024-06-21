@@ -6,8 +6,9 @@
             <div class="row clearfix">
                 <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
                     <div class="footer-widget logo-widget">
-                        <figure class="footer-logo"><a href="index"><img src="assets/images/footer-logo.png"
-                                    alt="footer-logo"></a></figure>
+                        <figure class="footer-logo"><a href="<?php route() ?>"><img
+                                    src="<?php asset('assets/images/footer-logo.png') ?>" alt="footer-logo"></a>
+                        </figure>
                         <ul class="footer-social clearfix">
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -23,9 +24,9 @@
                         </div>
                         <div class="widget-content">
                             <ul class="links-list clearfix">
-                                <li><a href="about.php">About Us</a></li>
-                                <li><a href="contact">Contact Us</a></li>
-                                <li><a href="gallery.php">Our Gallery</a></li>
+                                <li><a href="<?php route('about.php') ?>">About Us</a></li>
+                                <li><a href="<?php route('contact') ?>">Contact Us</a></li>
+                                <li><a href="<?php route('gallery.php') ?>">Our Gallery</a></li>
                             </ul>
                         </div>
                     </div>
@@ -57,23 +58,26 @@
                             <ul class="image-list clearfix">
                                 <li>
                                     <figure class="image">
-                                        <img src="assets/images/resource/footer-1.jpg" alt="img-1">
-                                        <a href="assets/images/resource/footer-1.jpg" class="lightbox-image"
-                                            data-fancybox="gallery"><i class="flaticon-plus-symbol"></i></a>
+                                        <img src="<?php asset('assets/images/resource/footer-1.jpg') ?>" alt="img-1">
+                                        <a href="<?php asset('assets/images/resource/footer-1.jpg') ?>"
+                                            class="lightbox-image" data-fancybox="gallery"><i
+                                                class="flaticon-plus-symbol"></i></a>
                                     </figure>
                                 </li>
                                 <li>
                                     <figure class="image">
-                                        <img src="assets/images/resource/footer-2.jpg" alt="img2">
-                                        <a href="assets/images/resource/footer-2.jpg" class="lightbox-image"
-                                            data-fancybox="gallery"><i class="flaticon-plus-symbol"></i></a>
+                                        <img src="<?php asset('assets/images/resource/footer-2.jpg') ?>" alt="img2">
+                                        <a href="<?php asset('assets/images/resource/footer-2.jpg') ?>"
+                                            class="lightbox-image" data-fancybox="gallery"><i
+                                                class="flaticon-plus-symbol"></i></a>
                                     </figure>
                                 </li>
                                 <li>
                                     <figure class="image">
-                                        <img src="assets/images/resource/footer-3.jpg" alt="img3">
-                                        <a href="assets/images/resource/footer-3.jpg" class="lightbox-image"
-                                            data-fancybox="gallery"><i class="flaticon-plus-symbol"></i></a>
+                                        <img src="<?php asset('assets/images/resource/footer-3.jpg') ?>" alt="img3">
+                                        <a href="<?php asset('assets/images/resource/footer-3.jpg') ?>"
+                                            class="lightbox-image" data-fancybox="gallery"><i
+                                                class="flaticon-plus-symbol"></i></a>
                                     </figure>
                                 </li>
                             </ul>
@@ -86,7 +90,7 @@
     <div class="footer-bottom centred">
         <div class="auto-container">
             <div class="copyright">
-                <p>&copy; Copyright 2024 by <a href="index.php"><?php echo $sitename; ?></a></p>
+                <p>&copy; Copyright 2024 by <a href="<?php route() ?>"><?php echo $sitename; ?></a></p>
             </div>
         </div>
     </div>
@@ -101,19 +105,19 @@
 <!-- End of .page_wrapper -->
 
 <!-- jequery plugins -->
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/parallax.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/owl.js"></script>
-<script src="assets/js/wow.js"></script>
-<script src="assets/js/validation.js"></script>
-<script src="assets/js/jquery.fancybox.js"></script>
-<script src="assets/js/appear.js"></script>
-<script src="assets/js/scrollbar.js"></script>
+<script src="<?php asset('assets/js/jquery.js') ?>"></script>
+<script src="<?php asset('assets/js/parallax.js') ?>"></script>
+<script src="<?php asset('assets/js/popper.min.js') ?>"></script>
+<script src="<?php asset('assets/js/bootstrap.min.js') ?>"></script>
+<script src="<?php asset('assets/js/owl.js') ?>"></script>
+<script src="<?php asset('assets/js/wow.js') ?>"></script>
+<script src="<?php asset('assets/js/validation.js') ?>"></script>
+<script src="<?php asset('assets/js/jquery.fancybox.js') ?>"></script>
+<script src="<?php asset('assets/js/appear.js') ?>"></script>
+<script src="<?php asset('assets/js/scrollbar.js') ?>"></script>
 
 <!-- main-js -->
-<script src="assets/js/script.js"></script>
+<script src="<?php asset('assets/js/script.js') ?>"></script>
 
 </body>
 

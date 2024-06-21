@@ -1,10 +1,10 @@
 <?php
-include 'header.php';
+include '../../header.php';
 
 $pageTitle = 'Our Products';
-include 'breadcrumb.php';
+include '../../breadcrumb.php';
 ?>
 
 
 
-<?php include 'footer.php'; ?>
+<?php include '../../footer.php'; ?>

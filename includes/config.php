@@ -9,3 +9,5 @@ $contactAddress = 'Chicago 12, Melborne City, USA';
 $contactEmail = 'info@example.com';
 
 $pageTitle = '';
+
+include 'functions.php';
