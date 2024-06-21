@@ -25,7 +25,7 @@
                         <div class="widget-content">
                             <ul class="links-list clearfix">
                                 <li><a href="<?php route('about.php') ?>">About Us</a></li>
-                                <li><a href="<?php route('contact') ?>">Contact Us</a></li>
+                                <li><a href="<?php route('contact.php') ?>">Contact Us</a></li>
                                 <li><a href="<?php route('gallery.php') ?>">Our Gallery</a></li>
                             </ul>
                         </div>
