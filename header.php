@@ -80,6 +80,7 @@ require 'includes/config.php';
                                         </a>
                                         <ul>
                                             <li><a href="<?php route('about.php') ?>">About Us</a></li>
+                                            <li><a href="<?php route('products') ?>">Our Products</a></li>
                                             <li><a href="<?php route('gallery.php') ?>">Our Gallery</a></li>
                                             <li><a href="<?php route('testimonial.php') ?>">Reviews</a></li>
                                         </ul>
