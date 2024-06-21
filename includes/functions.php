@@ -12,5 +12,5 @@ function asset($path)
 
 function route($path = '')
 {
-    echo (getRootPath() . $path);
+    echo (rtrim(getRootPath() . $path));
 }

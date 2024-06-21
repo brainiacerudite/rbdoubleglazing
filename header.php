@@ -72,7 +72,7 @@ require 'includes/config.php';
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="current"><a href="<?php route() ?>">Home</a></li>
+                                    <li class=""><a href="<?php route() ?>">Home</a></li>
                                     <li class="dropdown">
                                         <a href="<?php route('about.php') ?>">
                                             Pages
@@ -118,17 +118,17 @@ require 'includes/config.php';
                                             Doors
                                             <span class="dropdown-arrow fas fa-angle-down"></span></a>
                                         <ul>
-                                            <li><a href="<?php route('products/doors/upvc-doors.php') ?></a>">UPVC
+                                            <li><a href="<?php route('products/doors/upvc-doors.php') ?>">UPVC
                                                     Doors</a></li>
-                                            <li><a href="<?php route('products/doors/solidcore-doors.php') ?></a>">Solidcore
+                                            <li><a href="<?php route('products/doors/solidcore-doors.php') ?>">Solidcore
                                                     Doors</a></li>
-                                            <li><a href="<?php route('products/doors/composite-doors.php') ?></a>">Composite
+                                            <li><a href="<?php route('products/doors/composite-doors.php') ?>">Composite
                                                     Doors</a></li>
-                                            <li><a href="<?php route('products/doors/bifold-doors.php') ?></a>">Bifold
+                                            <li><a href="<?php route('products/doors/bifold-doors.php') ?>">Bifold
                                                     Doors</a></li>
-                                            <li><a href="<?php route('products/doors/patio-doors.php') ?></a>">Patio
+                                            <li><a href="<?php route('products/doors/patio-doors.php') ?>">Patio
                                                     Doors</a></li>
-                                            <li><a href="<?php route('products/doors/garage-doors.php') ?></a>">Garage
+                                            <li><a href="<?php route('products/doors/garage-doors.php') ?>">Garage
                                                     Doors</a></li>
                                         </ul>
                                     </li>

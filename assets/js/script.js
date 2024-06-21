@@ -1,5 +1,5 @@
 (function ($) {
-  "use strict";
+  ("use strict");
 
   //Hide Loading Box (Preloader)
   function handlePreloader() {
@@ -38,6 +38,20 @@
       '<div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>'
     );
   }
+
+  // Active status
+  var currentFullUrl = window.location.href.replace(/\/$/, "");
+  // console.log(currentFullUrl);
+
+  $(".navigation a").each(function () {
+    var normalizedHref = $(this).attr("href").replace(/\/$/, "");
+    if (normalizedHref === currentFullUrl) {
+      var $link = $(this);
+      $link.parent().addClass("current");
+
+      $link.parents("li.dropdown").addClass("current");
+    }
+  });
 
   //Mobile Nav Hide Show
   if ($(".mobile-menu").length) {
