@@ -125,12 +125,12 @@ require 'includes/config.php';
                                                     Doors</a></li>
                                             <li><a href="<?php route('products/doors/composite-doors.php') ?>">Composite
                                                     Doors</a></li>
-                                            <li><a href="<?php route('products/doors/bifold-doors.php') ?>">Bifold
+                                            <!-- <li><a href="<?php // route('products/doors/bifold-doors.php') ?>">Bifold
                                                     Doors</a></li>
-                                            <li><a href="<?php route('products/doors/patio-doors.php') ?>">Patio
+                                            <li><a href="<?php // route('products/doors/patio-doors.php') ?>">Patio
                                                     Doors</a></li>
-                                            <li><a href="<?php route('products/doors/garage-doors.php') ?>">Garage
-                                                    Doors</a></li>
+                                            <li><a href="<?php // route('products/doors/garage-doors.php') ?>">Garage
+                                                    Doors</a></li> -->
                                         </ul>
                                     </li>
                                     <li class="dropdown">
