@@ -76,6 +76,22 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
@@ -336,6 +352,7 @@ img {
   position: relative;
   display: block;
   margin-bottom: 30px;
+  text-align: initial !important;
 }
 
 .sec-title h2 {

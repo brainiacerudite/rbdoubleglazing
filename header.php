@@ -34,7 +34,7 @@ require 'includes/config.php';
 <body>
 
     <!-- page wrapper -->
-    <div class="boxed_wrapper">
+    <div class="boxed_wrapper text-justify">
 
         <!-- preloader -->
         <!-- <div class="loader-wrap">

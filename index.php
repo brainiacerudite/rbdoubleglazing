@@ -132,9 +132,9 @@
                         </figure>
                         <div class="quote"><i class="flaticon-quote"></i></div>
                     </div>
-                    <div class="text">
-                        <p>I was impresed by the company services, lorem is simply free text used by copytyping
-                            no refreshing. Neque porro est qui dolorem</p>
+                    <div class="text text-justify">
+                        <p>They made custom solar shades for my west-facing windows. The cost was
+                            very reasonable and the service was excellent. I highly recommend them.</p>
                     </div>
                     <div class="author-info">
                         <h5>Christine Rose</h5>
@@ -150,9 +150,10 @@
                         </figure>
                         <div class="quote"><i class="flaticon-quote"></i></div>
                     </div>
-                    <div class="text">
-                        <p>I was impresed by the company services, lorem is simply free text used by copytyping
-                            no refreshing. Neque porro est qui dolorem</p>
+                    <div class="text text-justify">
+                        <p>We needed 25 window screens repaired in our home. We contacted 3 local companies and ONLY
+                            RB Double Glazing came to our home to correctly measure and give us a quote
+                            for re-screening and repair of all of our window screens</p>
                     </div>
                     <div class="author-info">
                         <h5>Mike hardson</h5>
@@ -168,9 +169,10 @@
                         </figure>
                         <div class="quote"><i class="flaticon-quote"></i></div>
                     </div>
-                    <div class="text">
-                        <p>I was impresed by the company services, lorem is simply free text used by copytyping
-                            no refreshing. Neque porro est qui dolorem</p>
+                    <div class="text text-justify">
+                        <p>Their selection and pricing are outstanding, and their installers were absolutely incredible.
+                            We enjoyed the process of working with them from start to finish. I’ve recommended them to
+                            everyone I know who’s in the market for windows or doors.</p>
                     </div>
                     <div class="author-info">
                         <h5>sarah albert</h5>

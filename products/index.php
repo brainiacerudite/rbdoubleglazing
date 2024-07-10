@@ -103,7 +103,7 @@ include '../breadcrumb.php';
                                 size, fitting it to your property, and working within your budget.</p>
                         </div>
                         <div class="btn-box mt-4">
-                            <a href="<?php route('products/conservatives'); ?>" class="theme-btn btn-one">View</a>
+                            <a href="<?php route('products/conservatories'); ?>" class="theme-btn btn-one">View</a>
                         </div>
                     </div>
                 </div>
